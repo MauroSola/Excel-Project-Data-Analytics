@@ -11,7 +11,7 @@ The data is from Luke Barouse's Excel course, which, along with the Dataset, pro
 Going deeper into the dataset. Itself contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
 
 ### Dashboard File
-The Dashboard can be found on: 
+The Dashboard can be found on: [Salary Dashboard](Salary_Dashboard_Project.xlsx)
 
 ### Excel Skills Used
 
@@ -23,7 +23,7 @@ The following Excel skills were utilised for this analysis:
 
 ### Data Jobs Dataset
 
-The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my Excel course, which provides a foundation for analyzing data using Excel. It includes detailed information on:
+The dataset used for this project contains real-world data science job information from 2023. The dataset was accessed via Luke's Excel course. It includes detailed information on:
 
 - **👨‍💼 Job titles**
 - **💰 Salaries**
