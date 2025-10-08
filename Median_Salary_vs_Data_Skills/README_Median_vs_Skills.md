@@ -61,7 +61,7 @@ It includes detailed information on:
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
     - 📊 data_jobs_all
 
-        ![Salary Final](<Data_job_salary transformation-1.jpg>)
+        ![Salary Final](<Data_job_salary final-1-1.jpg>)
 
     - 🛠️ data_job_skills
 
