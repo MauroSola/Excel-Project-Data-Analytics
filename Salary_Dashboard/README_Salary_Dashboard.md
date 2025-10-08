@@ -13,6 +13,8 @@ Going deeper into the dataset. Itself contains detailed information on job title
 ### Dashboard File
 The Dashboard can be found on: [Salary Dashboard](Salary_Dashboard_Project.xlsx)
 
+![Salary Dashboard](<Salary Dashboard Overview.gif>)
+
 ### Excel Skills Used
 
 The following Excel skills were utilised for this analysis:
@@ -36,16 +38,17 @@ The dataset used for this project contains real-world data science job informati
 
 #### 📊 Data Science Job Salaries - Bar Chart
 
-
+![Job title Chart](<Salary Dashboard Job Chart in action.gif>)
 
 - 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
 - 📉 **Data Organization:** Sorted job titles by descending salary for improved readability.
 - 💡 **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
 
+
 #### 🗺️ Country Median Salaries - Map Chart
 
-
+![Map Chart](<Salary Dashboard Map Chart in action.gif>)
 
 - 🛠️ **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
 - 🎨 **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
@@ -69,23 +72,23 @@ IF(
 )
 ```
 
+
 - 🔍 **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
 - 📊 **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
 - 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
 - **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 🍽️ Background Table
-
-
+![Job Title Median Salary](<Salary Dashboard Job Title Median Salary.jpg>)
 
 📉 Dashboard Implementation
 
-
+![Median Salary Output Box](<Salary Dashboard Job Chart in action-1.gif>)
 
 #### ⏰ Count of Job Schedule Type
 
 ```
-=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+=FILTER(I2#,(NOT(ISNUMBER(SEARCH("and",I2#))+ISNUMBER(SEARCH(",",I2#))))*(I2#<>0))
 ```
 
 - 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
@@ -93,11 +96,11 @@ IF(
 
 🍽️ Background Table
 
-
+![Job Type Filter](<Salary Dashboard Job Type Filter.jpg>)
 
 📉 Dashboard Implementation:
 
-
+![Job Type Output Box](<Salary Dashboard Map Chart in action-1.gif>)
 
 ### ❎ Data Validation
 
